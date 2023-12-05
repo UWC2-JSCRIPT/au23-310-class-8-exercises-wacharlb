@@ -39,10 +39,12 @@ const calcPoints = function(hand) {
       handScore += card.val;
     }
   }
+
   if (handScore <= 11 && hasAce) {
     handScore += 10;
     isSoft = true;
   }
+
   return {
     total: handScore,
     isSoft: isSoft

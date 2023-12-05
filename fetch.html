@@ -7,10 +7,25 @@
 </head>
 <body>
   <div class="container">
+    <form id="book-form">
+      <div>
+        <label for="date-label">Date</label>
+        <input 
+          id="date"
+          class="form-control"
+          type="date"
+        />
+      </div>
+
+      <div class="form-group">
+        <input id="submit-btn" class="btn btn-primary" type="submit" value="Submit" />
+      </div>
+    </form>
+
     <h1 id="article-title" class="my-4"></h1>
     <img id="article-img" />
     <p id="article-snippet" class="my-3"></p>
-    <p><a id="article-link">Full Article</a></p>
+    <p><a id="article-link"></a></p>
   </div>
 
   <script src="fetch-api-key.js"></script>
