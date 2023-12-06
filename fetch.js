@@ -6,10 +6,11 @@ const BASE_URL = 'https://api.nytimes.com/svc/books/v3/lists';
 const date = document.getElementById('date');
 const form = document.getElementById('book-form')
 //const url = `${BASE_URL}?q=tech&api-key=${API_KEY}`;
-
-//const date = "2020-12-03";
 //let url = `${BASE_URL}/${date}/${list}?q=tech&api-key=${API_KEY}`;
-     
+
+// Paste in API key here
+//const API_KEY = '';
+
 function fetchData() {  
   const url = `${BASE_URL}/${date.value}/${list}?q=tech&api-key=${API_KEY}`;
 
