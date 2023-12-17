@@ -9,7 +9,7 @@ const form = document.getElementById('book-form')
 //let url = `${BASE_URL}/${date}/${list}?q=tech&api-key=${API_KEY}`;
 
 // Paste in API key here
-//const API_KEY = '';
+const API_KEY = '';
 
 function fetchData() {  
   const url = `${BASE_URL}/${date.value}/${list}?q=tech&api-key=${API_KEY}`;
